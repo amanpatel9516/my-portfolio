@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Trainer</title>
+    <link rel="stylesheet" href="port.css">
+    <script src="https://kit.fontawesome.com/38f24b9fb2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+<div class="hero">
+
+</div>
+    <div id ="header">
+        <div class="container">
+            <video autoplay loop muted plays-inline class ="back-vedio">
+                <source src="120.mp4.mp4" type="video/mp4">
+            </video>
+            <nav>
+                
+                 <ul id ="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a> </li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Help</a></li>
+                    
+                    <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+               </ul>
+               <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+             <h1>Patel Gym</h1>
+             <a href ="#">Explore</a>   
+                 
+            </div>
+        </div>
+    </div>
+<!-- ------------------------------------------- ---   ------ about -  ----------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <!--<div class="about-col-1">
+                <img src="">
+            </div>-->
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>🚀 Software Engineer in the Making<br>
+
+                    Hello there! <span>I'm Aman Patel</span> , a passionate individual on the exciting journey of becoming a Software Engineer with a focus on Artificial Intelligence and Machine Learning. Currently pursuing my degree in this dynamic field, I am driven by an insatiable curiosity to unravel the endless possibilities within the realm of technology.<br>
+                    
+                    💡 Why Software Engineering?<br>
+                    My love for coding is like crafting poetry in the language of machines. I see software as a canvas where imagination meets functionality, and I'm here to paint solutions that make a real impact.
+                    
+                    🤖 AI and ML Enthusiast <br>
+                    Fascinated by the power of Artificial Intelligence and Machine Learning, I am constantly exploring ways to infuse intelligence into technology. From predicting patterns to automating tasks, I believe AI has the potential to transform the way we interact with the digital world.<br>
+                    
+                    🌐 Building Tomorrow's Solutions, Today<br>
+                    In every line of code, I envision a solution that can make a difference. I'm not just building software; I'm shaping the future of technology, one algorithm at a time.<br>
+                    
+                    Join me on this exciting journey of innovation and discovery. Let's code the future together! </p>
+                 <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                 </div>
+
+                 <div class="tab-contents active-tab" id ="Skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Design Web/App interfaces</li>
+                        <li><span>Web Developement</span><br>Web App Developement</li>
+                        <li><span>App Developement</span><br>Building Android/ios apps</li>
+                         
+                    </ul>
+                 </div>
+
+                 <div class="tab-contents" id ="Education">
+                    <ul>
+                        <li><span>2024-current</span><br>UI/Ux Traning at Lovely professional university.</li>
+                        <li><span>2022-2023</span><br>Completed plus two</li>
+                        <li><span>2020-2021</span><br>Planning to make brright future.</li>
+                         
+                    </ul>
+                 </div>
+
+                 <div class="tab-contents" id ="Experience">
+                    <ul>
+                        <li><span>2020-2021</span><br>completed 10TH</li>
+                        <li><span>2018-2020</span><br>Learning skills From Mom .</li>
+                        <li><span>2018-2020</span><br>Studing From Papa ji.</li>
+                         
+                    </ul>
+                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---- --------------- services - ---- ----- --- -->
+
+ <div id="srevices">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-shield-halved"></i>
+                <h2>Web Design</h2>
+                <p>Fascinated by the power of Artificial Intelligence and Machine Learning, I am constantly exploring ways to infuse intelligence into technology</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-crop"></i>
+                <h2>UI/Ux Design</h2>
+                <p>Fascinated by the power of Artificial Intelligence and Machine Learning, I am constantly exploring ways to infuse intelligence into technology</p>
+                <a href="#">Learn more</a>
+           </div>
+           <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>App Design</h2>
+            <p>Fascinated by the power of Artificial Intelligence and Machine Learning, I am constantly exploring ways to infuse intelligence into technology</p>
+            <a href="#">learn more</a>
+        </div>
+        </div>
+      
+    </div>
+ </div>
+
+
+ <!-- --------------- PORTFOLIO -----  --------------------------- -->
+
+ <div class="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/1.mp4">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you ,yo the talented people around the world.
+                        JOIN with our channel. </p>
+                     <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/3.webp">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you ,yo the talented people around the world.
+                        JOIN with our channel. </p>
+                     <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/4.webp">
+                <div class="layer">
+                    <h3>Online Influencer </h3>
+                    <p>The app connects you ,yo the talented people around the world.
+                        JOIN with our channel. </p>
+                     <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+ </div>
+
+<!-- ----------------CONTACT------------------ -------- -->
+
+
+<div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-sharp fa-solid fa-paper-plane"></i>  ap.9516642814@gmail.com </p>
+                <p><i class="fa-sharp fa-solid fa-phone-volume"></i> 9516642814</p>
+                <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></i></a>
+                </div> 
+
+                <a href="img/ccc.jpg" download class ="btn btn2">Download fitness form</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name=" Your Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class ="btn btn2" >Submit</button>
+                    
+                </form>  
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright ⓒ Aman Patel. Made with <i class="fa-solid fa-heart"></i> Chesita company.</p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
